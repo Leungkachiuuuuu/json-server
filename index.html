@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script async src="./script.js"></script>
+  </head>
+  <body>
+    <header class="header">implement a todo list</header>
+    <main class="content">
+      <section class="todolist">
+        <header class="todolist__header">todo list</header>
+        <input class="todolist__input" />
+        <ul id="todolist_container">
+
+        </ul>
+      </section>
+
+      <section class="selectedlist">
+        <header class="selected__header">todo list</header>
+        <input class="selected__input" />
+        <ul id="selected_container">
+
+        </ul>
+      </section>
+
+      <div>
+        <p id="credit">Total Credit : 0 </p>
+        <button onclick=checkCredit()>Select</button> 
+        
+      </div>
+
+    </main>
+  </body>
+</html>
